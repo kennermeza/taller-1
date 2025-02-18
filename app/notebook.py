@@ -1,5 +1,6 @@
 from datetime import datetime
 
+
 class Nota:
 
 
@@ -7,20 +8,20 @@ class Nota:
     medium: str = "medium"
     low: str = "low"
 
-
-
-  def __int__(self, code: str, title: str, text: str, importance: str):
-        self.code: str = code
-        self.title: str = title
-        self.text: str = text
-        self.importance: str = importance
-        self.creation_date = datetime.now()
-        self.tags: list[str] = []
+    def __int__(self, code: str, title: str, text: str, importance: str):
+            self.code: str = code
+            self.title: str = title
+            self.text: str = text
+            self.importance: str = importance
+            self.creation_date = datetime.now()
+            self.tags: list[str] = []
 
 
     def  add__tag(self, tag: str):
         if self.tags.count(tag) < 1:
             self.tags.append(tag)
+
+        else:
 
 
 
