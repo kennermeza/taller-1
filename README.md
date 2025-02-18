@@ -22,8 +22,8 @@ Considera los siguientes aspectos para la implementación:
 
   - `HIGH` de tipo `str` con valor `'HIGH'`.
   - `MEDIUM` de tipo `str` con valor `'MEDIUM'`.
-  - `LOW` de tipo `str` con valor `'LOW'`.
-
+  - `LOW` de tipo `str` con valor `'LOW'`
+.
   Puedes consultar el documento de estudio **Conceptos de POO** para más información sobre constantes en clases.
   O tambiénn puedes consultar en Internet sobre constantes en clases en Python.
 
