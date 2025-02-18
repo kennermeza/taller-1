@@ -18,6 +18,9 @@ class Nota:
         self.tags: list[str] = []
 
 
+    def  add__tag(self, tag: str):
+        if self.tags.count(tag) < 1:
+            self.tags.append(tag)
 
 
 
